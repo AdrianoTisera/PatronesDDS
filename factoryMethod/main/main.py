@@ -7,7 +7,7 @@ class Cliente():
         trianguloFactory: TrianguloFactoryABC = TrianguloFactory()
         print("Bienvenido a la fábrica de triángulos")
         while True:
-            data = input("Ingrese la medida de los lados (<ladoA>, <ladoB>, <ladoC>):  ").replace(" ", "").split(",")
+            data = input("Ingrese la medida de los lados (A, B, C):  ").replace(" ", "").split(",")
             if len(data) != 3:
                 print("\n\nFormato Incorrecto")
             else:
