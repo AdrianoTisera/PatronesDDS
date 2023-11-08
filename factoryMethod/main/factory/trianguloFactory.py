@@ -5,7 +5,7 @@ class TrianguloFactory(TrianguloFactoryABC):
 
     def createTriangulo(self, ladoA: int, ladoB: int, ladoC: int) -> TrianguloProductABC:
 
-        if (ladoA + ladoB < ladoC) and (ladoB + ladoC < ladoA) and (ladoA + ladoC < ladoB):
+        if (ladoA + ladoB < ladoC) or (ladoB + ladoC < ladoA) or (ladoA + ladoC < ladoB):
             invalidoProduct = InvalidoProduct(ladoA,ladoB,ladoC)
             return invalidoProduct
         
