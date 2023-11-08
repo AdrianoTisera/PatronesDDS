@@ -6,7 +6,7 @@ class Plasma(TV):
         super().__init__(brand, inches, color, price)
         self.visionAngle = visionAngle
         self.responseTime = responseTime
-        self.description = "Plasma... próximamente será un LED"
+        self.description = "Televisor de plasma, eventualmente se dejará de fabricar."
 
     def getVisionAngle(self) -> int:
         return self.visionAngle
