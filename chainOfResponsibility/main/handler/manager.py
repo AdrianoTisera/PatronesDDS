@@ -12,6 +12,6 @@ class Manager(ApproverABS):
 
     def requestLoan(self, money: int) -> None:
         if 50000 < money <= 100000:
-            print("Lo manejo yo, el gerente!")
+            print("Solicitud gestionada por el gerente.")
         else:
             self.next.requestLoan(money)

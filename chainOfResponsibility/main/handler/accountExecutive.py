@@ -12,6 +12,6 @@ class AccountExecutive(ApproverABS):
 
     def requestLoan(self, money: int) -> None:
         if money <= 10000:
-            print("Lo manejo yo, el Ejecutivo de Cuentas")
+            print("Solicitud gestionada por el ejecutivo de cuentas.")
         else:
             self.next.requestLoan(money)

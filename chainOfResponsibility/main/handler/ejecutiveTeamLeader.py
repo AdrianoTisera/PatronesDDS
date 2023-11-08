@@ -12,6 +12,6 @@ class EjecutiveTeamLeader(ApproverABS):
 
     def requestLoan(self, money: int) -> None:
         if 10000 < money <= 50000:
-            print("Lo manejo yo, el lider!")
+            print("Solicitud gestionada por el lider de equipo ejecutivo.")
         else:
             self.next.requestLoan(money)

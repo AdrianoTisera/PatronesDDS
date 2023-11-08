@@ -12,4 +12,4 @@ class Director(ApproverABS):
 
     def requestLoan(self, money: int) -> None:
         if money > 100000:
-            print("Lo manejo yo, el director!")
+            print("Solicitud gestionada por el director.")
