@@ -10,7 +10,7 @@ class Cliente():
         living_room_light_on = LightOnCommand(living_room_light)
         living_room_light_off = LightOffCommand(living_room_light)
 
-        set_temperature = TemperatureControlCommand(thermostat, 23.0)
+        set_temperature = TemperatureControlCommand(thermostat, 24.0)
 
         remote = RemoteControlInvoker()
 

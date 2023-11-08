@@ -1,6 +1,6 @@
 class LightReceiver():
     def turn_on(self):
-        print("Light is ON")
+        print("Luz ENCENDIDA 💡")
 
     def turn_off(self):
-        print("Light is OFF")
+        print("Luz APAGADA 🌑")
